@@ -3,8 +3,10 @@ title: "project1"
 author: "Federico Acosta y Lara"
 date: "1/29/2021"
 output: 
-  html_document:
-    keep_md: true
+  html_document: 
+    keep_md: yes
+editor_options: 
+  chunk_output_type: inline
 ---
 
 
