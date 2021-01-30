@@ -3,8 +3,8 @@ title: "project1"
 author: "Federico Acosta y Lara"
 date: "1/29/2021"
 output:
-  github_document: default
-  html_document: default
+  md_document:
+    variant: markdown_github
 ---
 
 ```{r setup, include=FALSE}
