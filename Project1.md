@@ -1,8 +1,3 @@
-project1
-================
-Federico Acosta y Lara
-1/29/2021
-
 ### Download data
 
 ``` r
@@ -47,7 +42,7 @@ ggplot(StepsDay, aes(x = steps.sum)) +
 
     ## Warning: Removed 8 rows containing non-finite values (stat_bin).
 
-![](Project1_files/figure-gfm/plot%20total%20step-1.png)<!-- -->
+![](Project1_files/figure-markdown_github/plot%20total%20step-1.png)
 
 1.  Calculate and report the mean and median of the total number of
     steps taken per day
@@ -75,7 +70,7 @@ ggplot(StepsInterval,
   ggtitle("Steps in 5 Minute Invervals Per Day")
 ```
 
-![](Project1_files/figure-gfm/Steps%20per%20interval-1.png)<!-- -->
+![](Project1_files/figure-markdown_github/Steps%20per%20interval-1.png)
 
 1.  Which 5-minute interval, on average across all the days in the
     dataset, contains the maximum number of steps?
@@ -148,7 +143,7 @@ ggplot(ImputedStepsDay, aes(x = steps.sum)) +
     labs(title = "Steps per day", x = "Steps", y = "Frequency")
 ```
 
-![](Project1_files/figure-gfm/histogram%20imputed-1.png)<!-- -->
+![](Project1_files/figure-markdown_github/histogram%20imputed-1.png)
 
 **Step per day mean (Imputed Nas dataset) = ** 1.0766189^{4} **Step per
 day median (Imputed Nas dataset) = ** 1.0766189^{4}
@@ -226,4 +221,4 @@ plot(WeekdaySteps$interval, WeekdaySteps$steps, type="l",
      col="darkblue", lwd=1.5, ylim=c(0, 230))
 ```
 
-![](Project1_files/figure-gfm/panel%20plot%20weekdays%20vs%20weekends-1.png)<!-- -->
+![](Project1_files/figure-markdown_github/panel%20plot%20weekdays%20vs%20weekends-1.png)
