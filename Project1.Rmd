@@ -2,7 +2,7 @@
 title: "project1"
 author: "Federico Acosta y Lara"
 date: "1/29/2021"
-output: html_document
+output: rmarkdown::github_document
 editor_options: 
   chunk_output_type: console
 ---
