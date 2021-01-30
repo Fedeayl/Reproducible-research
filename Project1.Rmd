@@ -3,10 +3,8 @@ title: "project1"
 author: "Federico Acosta y Lara"
 date: "1/29/2021"
 output:
-  md_document:
-    variant: markdown_github
-editor_options: 
-  chunk_output_type: console
+  github_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
